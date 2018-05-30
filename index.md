@@ -1,4 +1,4 @@
-## 22kHz 9bit - No Dither
+## 22kHz 9bit - No Dither - 2048 fft - 80 bands 
 
 | Generated | Ground Truth |
 | ------------- | ------------- |
