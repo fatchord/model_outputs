@@ -1,4 +1,4 @@
-## Title
+## 22kHz 9bit - No Dither
 
 | Generated | Ground Truth |
 | ------------- | ------------- |
