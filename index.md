@@ -1,5 +1,5 @@
 ## 22kHz - No Dither - 2048 fft - 80 bands - No PreEmph
-# Complete Neural TTS output
+### Complete Neural TTS output
 "The buses aren't the problem, they actually provide a solution."
 <audio src="https://github.com/fatchord/model_outputs/blob/master/TTS_1.wav?raw=true" controls preload></audio>
 "The quick brown fox jumps over the lazy dog."
@@ -26,8 +26,8 @@
 <audio src="https://github.com/fatchord/model_outputs/blob/master/TTS_12.wav?raw=true" controls preload></audio>
 
 
-# Vocoder output
-# Mel Specs Test Set
+## Vocoder output (Mel Spectrogram Input - Test Set)
+
 | Generated | Ground Truth |
 | ------------- | ------------- |
 | <audio src="https://github.com/fatchord/model_outputs/blob/master/576k_steps_0_generated.wav?raw=true" controls preload></audio>  | <audio src="https://github.com/fatchord/model_outputs/blob/master/576k_steps_0_target.wav?raw=true" controls preload></audio>  |
