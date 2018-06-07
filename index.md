@@ -1,5 +1,5 @@
 ## 22kHz - No Dither - 2048 fft - 80 bands - No PreEmph
-### Complete Neural TTS output
+### Neural TTS output
 "The buses aren't the problem, they actually provide a solution."
 <audio src="https://github.com/fatchord/model_outputs/blob/master/TTS_1.wav?raw=true" controls preload></audio>
 "The quick brown fox jumps over the lazy dog."
