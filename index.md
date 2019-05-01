@@ -20,3 +20,16 @@ Basilar membrane and otolaryngology are not auto-correlations.
 The buses aren't the problem, they acutally provide a solution
 <audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/tts7.wav?raw=true" controls preload></audio>
 <audio src="https://github.com/fatchord/model_outputs/blob/master/nixon_9bit_mulaw/tts7.wav?raw=true" controls preload></audio>
+
+
+## WavRNN Vocoder Only
+
+Mixture of Logistics Model trained to ~800k steps. Generation Rate benchmarked on a GTX1080. 
+
+| Original | Not Batched (Generation Rate: 1.5kHz) | Batched | Batched Generation Rate |
+|:---:|:---:|:---:|:---:|
+|<audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/797k_steps_1_target.wav?raw=true" controls preload></audio>|<audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/797k_steps_1_gen_NOT_BATCHED.wav?raw=true" controls preload></audio>|<audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/797k_steps_1_gen_batched.wav?raw=true" controls preload></audio>|29kHz|
+|<audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/797k_steps_2_target.wav?raw=true" controls preload></audio>|<audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/797k_steps_2_gen_NOT_BATCHED.wav?raw=true" controls preload></audio>|<audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/797k_steps_2_gen_batched.wav?raw=true" controls preload></audio>|26kHz|
+|<audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/797k_steps_3_target.wav?raw=true" controls preload></audio>|<audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/797k_steps_3_gen_NOT_BATCHED.wav?raw=true" controls preload></audio>|<audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/797k_steps_3_gen_batched.wav?raw=true" controls preload></audio>|24kHz|
+|<audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/797k_steps_4_target.wav?raw=true" controls preload></audio>|<audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/797k_steps_4_gen_NOT_BATCHED.wav?raw=true" controls preload></audio>|<audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/797k_steps_4_gen_batched.wav?raw=true" controls preload></audio>|15kHz|
+|<audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/797k_steps_5_target.wav?raw=true" controls preload></audio>|<audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/797k_steps_5_gen_NOT_BATCHED.wav?raw=true" controls preload></audio>|<audio src="https://github.com/fatchord/model_outputs/blob/master/ljspeech_9bit_mulaw/797k_steps_5_gen_batched.wav?raw=true" controls preload></audio>|18kHz|
